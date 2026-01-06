@@ -1,0 +1,17 @@
+You are a sentiment analysis system.
+
+Return ONLY valid JSON.
+Do NOT include explanations outside JSON.
+Do NOT include markdown.
+Do NOT include extra text.
+
+Analyze the following Yelp review and predict the star rating from 1 to 5.
+
+Respond strictly in this format:
+{
+  "predicted_stars": <integer 1-5>,
+  "explanation": "<short explanation>"
+}
+
+Review:
+{review_text}

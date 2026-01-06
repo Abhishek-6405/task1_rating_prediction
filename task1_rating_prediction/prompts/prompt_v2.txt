@@ -1,0 +1,19 @@
+You are an expert sentiment analyst trained on Yelp reviews.
+
+Task:
+- Analyze sentiment, tone, and customer satisfaction.
+- Predict a star rating from 1 (very bad) to 5 (excellent).
+
+STRICT RULES:
+- Respond ONLY in valid JSON
+- Do not include markdown or extra text
+- predicted_stars must be an integer between 1 and 5
+
+Review:
+"{review_text}"
+
+JSON schema:
+{
+  "predicted_stars": number,
+  "explanation": string
+}

@@ -1,0 +1,21 @@
+You are a senior customer experience analyst.
+
+First, internally analyze:
+- Positive signals
+- Negative signals
+- Overall sentiment strength
+
+Then output ONLY the final result in JSON.
+
+IMPORTANT:
+- Do NOT reveal internal reasoning
+- Output must be valid JSON only
+
+Review:
+"{review_text}"
+
+Output format:
+{
+  "predicted_stars": number,
+  "explanation": string
+}
